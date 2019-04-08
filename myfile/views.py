@@ -6,3 +6,5 @@ def kinomir(request):
         print(form.cleaned_data)
         new_form = form.save()
     return render(request,'kinomir/kinomir.html', locals())
+
+

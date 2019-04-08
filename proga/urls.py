@@ -18,5 +18,6 @@ from django.conf.urls import url, include
 admin.autodiscover()
 urlpatterns = [
     url(r'admin/', admin.site.urls),
-    url(r'^kinomir', include('myfile.urls'))
+    url(r'^kinomir', include('myfile.urls')),
+    url(r'^spisok', include('spisok.urls')),
 ]
